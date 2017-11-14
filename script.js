@@ -22,6 +22,7 @@ function timer(minutes) {
     if (minutes === 1 && seconds === 0) {
       minutesReminderEl.innerHTML = "Time is up!";
       clearInterval(updateTime);
+      window.location.replace("http://www.google.com");
     }
   }, 1000);
 }
